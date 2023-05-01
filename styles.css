@@ -20,7 +20,6 @@ html {
 	font-size: 10px;
 }
 body {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	background-color: black;
     color: white;
 }
@@ -29,8 +28,7 @@ body {
     margin-left: 0;
     width: 100%;
     float: left;
-    display: block;
-    background-image: url(assets/paint.jpg);
+    display: block;   
 }
 /* common styles*/
 img {
@@ -79,6 +77,11 @@ color: white;
 	grid-template-columns:1;
 	gap: 4rem;
 }
+legend, button {
+  background-color:#430C78;
+  color:white;
+  padding:5px 5px;
+  }	
 @media only screen and (max-width: 481px) {
  .gridContainer {
 	width: 90.675%;
