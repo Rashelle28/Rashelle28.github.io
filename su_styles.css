@@ -27,9 +27,45 @@ img, object, embed, video {
 	http://goldengridsystem.com/
 */
 body {
-	background-image: url(assets/paint.jpg)
+	background-image: url(assets/paint.jpg)	
 }
-
+.body {
+	background: #3333;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.cover{
+	width: 900px;
+	height: 400px;
+	/*background: #0000;*/
+	margin-top: 50px;
+	display: flex;
+}
+.box {
+	margin: 10px;
+	width: 200px;
+	height: 400px;
+	box-shadow: -1px 0 10px #000000;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	/*bacxkground-color: black;*/
+}
+.img {
+	width: 500px;
+	height: 400px;
+}
+.page-card {
+	position: relative;
+}
+.page-card img{
+	max-width:60%;
+	height: auto;
+	display: flex;
+	jsutify-content:center;
+	align-items: center;
+}
 .fluid {
     clear: both;
     margin-left: 0;
@@ -45,7 +81,17 @@ body {
     margin:0;
     padding:0;        
 }
-
+.container {
+	margin: 150px auto;
+	width: 50%;
+	padding: 8px;
+}
+.img {
+	float: left;
+	width: 300px;
+	height: 260px;
+	padding: 0 10px 0 0;
+}
 /* Mobile Layout: 480px and below. */
   
 .gridContainer {
@@ -58,11 +104,13 @@ body {
     float: none;
     height: 100%;
 }
-.header_div {
-	background-image: url(assets/banner.png);
-	background-repeat: no-repeat;
-	height: 110px;
-	margin-top: 10px;
+.float-img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	pading: 2px;
+
 }
 .nav_div {
 	width: 30%;
@@ -73,7 +121,7 @@ body {
 	border-right-style: solid;
 	border-left-style: solid;
 	border-left-width: thin;
-	text-indent: 3px;
+	text-indent: 8px;
 }
 .nav_ul {
 	width: 100%;
@@ -90,10 +138,12 @@ body {
 .intro_paragraph {
 	width: 97%;
 	float:none; 
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	clear: none;
 	padding-left: 5px;
 	padding-right: 5px;
+	background-color:#C0A9DA;
+	font-size: x-large;
 }
 .paragraph_text {
 	width: 50%;
@@ -106,7 +156,7 @@ body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: small;
 	text-align: center;
-	background-color: #FFBCBC;
+	background-color: #E4D6EB;
 	margin-top: 10px;
 }
 .img_div {
@@ -165,7 +215,7 @@ legend, button {
 @media only screen and (min-width: 481px) {
 
 .gridContainer {
-	width: 90.675%;
+	width: 85%;
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 	clear: none;
@@ -174,7 +224,7 @@ legend, button {
 }
 .header_div {
     margin-top: 10px;
-    background-image: url(assets/banner.png);
+    background-color: #C98FEB;
     border-top-width: medium;
 }
 .nav_div {
@@ -219,14 +269,11 @@ display: none;
     text-shadow: 0px 0px;
     font-family: serif;
 	background-size:cover;
-	background-image: url("assets/Blend.jpg");
-	background-position:  80% center;
-	backgorund-size: 30px;
+	background-position:  85% center;
+	
 		
 }
-.header_div {
-    background-image: url(assets/banner.png);
-}
+
 .nav_div {
 width: 30%;
 }
