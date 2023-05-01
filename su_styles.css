@@ -50,7 +50,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	/*bacxkground-color: black;*/
+	/*background-color: black;*/
 }
 .img {
 	width: 500px;
@@ -142,7 +142,7 @@ body {
 	clear: none;
 	padding-left: 5px;
 	padding-right: 5px;
-	background-color:#C0A9DA;
+	background-color:#0000;
 	font-size: x-large;
 }
 .paragraph_text {
@@ -269,9 +269,7 @@ display: none;
     text-shadow: 0px 0px;
     font-family: serif;
 	background-size:cover;
-	background-position:  85% center;
-	
-		
+	background-position:  85% center;	
 }
 
 .nav_div {
